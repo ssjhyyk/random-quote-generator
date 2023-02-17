@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="./style.css">
-   
     <title>Quotes Generator</title>
 </head>
-
 <body>
-    <div id="box">
-        <p id="quote"></p>
-        <p id="author"></p>
+    <div id="quote-box">
+      <div id="text">
+        <p id="quoteDisplay">Click the button to generate a quote.</p>
+      </div>
+      <div id="author">
+        <p id="authorDisplay">- Author</p>
+      </div>
+      <div id="buttons">
+        <button id="new-quote" onclick="newQuote()">New Quote</button>
+        <button id="tweet-quote">Tweet Quote</button>
+      </div>
     </div>
-    <br> 
-<center><button id="button">GENERATE QUOTE</button></center>
- 
-   
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -1,41 +1,52 @@
-
 body{
-    background-color: rgb(186, 173, 198);
-    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
-#button
-{
-    width: 100%
-    padding=10px;
-    border: 4px solid black;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#box{
-    text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:50%;
-    align-content: center ;
-    padding: 30px;
+.quote-box{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #000;
     margin: 0 auto;
-    border: 2px solid black;
-    border-radius: 20px;
-    height:300px;
-    width:1000px;
-    background-color: white;
-    flex-direction: column;
-}
-
-
-#quote{
-    font-size: 1.5em;
-}
-
-
-#author{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
+    max-width: 800px;
+    padding: 20px;
     text-align: center;
+}
+.quote-text{
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+}
+.quote-author{
+    font-size: 1.25em;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 20px 10px 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+button:focus{
+    outline: none;
 }
